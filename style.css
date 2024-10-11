@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300&display=swap');
+
+* {
+    font-family: "Kanit", sans-serif;
+}
+
+body {
+    background-color: rgb(231, 231, 231)
+}
+
+.topbar {
+    display: flex;
+    background-color: rgb(241, 241, 241);
+    color: #000000;
+    width: 1200px;
+    height: 40px;
+    margin: .6rem auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.deta-in-head {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.facebook a img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    margin: 9px auto;
+    padding-left: 115rex;
+}
+
+.instagram a img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    margin: 10px auto;
+    padding-left: 1.4rem;
+}
+
+.youtube a img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 16px;
+    margin: 13px auto;
+    padding-left: 1.5rem;
+}
+
+.banner img {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 360px;
+    width: 1200px;
+    margin: -10px auto;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-top: 50px solid white;
+}
